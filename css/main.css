@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Rubik', 'Arial', sans-serif;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1240px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.site-header {
+}
+
+.header-top {
+	padding: 30px 0;
+	background-color: #f6f6f6;
+}
+
+.header-top-inner {
+	display: flex;
+	align-items: center;
+}
+
+.logo-link {
+	margin-right: 35px;
+	text-decoration: none;
+}
+
+.header-top-list {
+	display: flex;
+	align-items: center;
+	column-gap: 25px;
+	padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.item-symbol {
+	color: #2959ce;
+	font-weight: 700;
+}
+
+.item-amount {
+	color: #555;
+	text-decoration: none;
+}
+
+.search-form {
+	margin-left: auto;
+	margin-right: 25px;
+}
+
+.input-controller {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+	border-radius: 60px;
+	background: #fff;
+}
+
+.search-icon {
+	margin-right: 6px;
+}
+
+.search-input {
+	width: 220px;
+	padding: 3px 0;
+	border: none;
+}
+
+.search-input::placeholder {
+	color: #8d8d8d;
+	font-size: 14px;
+}
+
+.search-input:focus {
+	outline: 0;
+	/* border: none; */
+}
+
+.localization-button {
+	margin-right: 25px;
+	padding: 3px;
+	border-radius: 39px;
+	background: #dce6ff;
+}
+
+.lang-button {
+	font-size: 13px;
+	padding: 8px;
+	line-height: 30px;
+	border-radius: 50%;
+}
+
+.uz-button {
+	color: #000;
+	background-color: #fff;
+}
+
+.ru-button {
+	color: #a6a6a6;
+}
+
+.login-button {
+	display: inline-block;
+	padding: 13px 20px;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 10px;
+	background-color: #7296ec;
+	text-decoration: none;
+}
+
+.header-bottom {
+	padding: 10px 0 40px;
+}
+
+.nav {
+	border-bottom: 2px solid #d1d1d1;
+	padding: 20px 0;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.nav-link {
+	color: #7f7f7f;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
